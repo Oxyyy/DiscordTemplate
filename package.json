@@ -1,0 +1,16 @@
+{
+  "name": "AppName",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "pm2 start index.js --name AppName"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "firebase-admin": "^9.10.0"
+  }
+}
